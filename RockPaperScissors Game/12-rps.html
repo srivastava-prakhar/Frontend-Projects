@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rock Paper Scissors </title>
+   
+    <link rel="stylesheet" href="12-rps.css">
+  
+  </head>
+
+    <body>
+      <div class="main">
+     <p class ="
+     title">Rock Paper Scissors</p>
+
+              <button class="move-button js-rock-button"
+              ><img src="images/rock-emoji.png" class="move-icon"></button>
+
+                <button class="move-button js-paper-button"
+              ><img src="images/paper-emoji.png"   class="move-icon"></button>
+
+                  <button 
+              class="move-button js-scissors-button"
+              ><img src="images/scissors-emoji.png" class="move-icon"></button>
+
+<p class="js-result result"></p>
+<p class="js-moves"></p>
+<p class="js-score score"></p>
+
+<button onclick="
+      score.wins = 0;
+      score.losses = 0;
+      score.ties = 0;
+      localStorage.removeItem('score');
+      updateScore();
+      document.querySelector('.js-result').innerHTML = ''
+      document.querySelector('.js-moves').innerHTML = ''
+" 
+class="reset-score-button">Reset Score</button>
+
+<button class="reset-score-button" onclick="
+autoPlay();
+">Auto Play</button>
+</div>
+<div class="instructions">
+<p >You can press <B class="ins">R</B> for rock, <B class="ins">P </B>for paper and <b class="ins">S</b> for scissors</p></div>
+
+<script src="12-rps.js"></script>
+
+        </body>
+</html>

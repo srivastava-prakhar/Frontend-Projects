@@ -1,0 +1,56 @@
+button{
+  height: 70px;
+  width: 70px;
+  column-gap: normal;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 28px;
+  background-color: rgb(41, 38, 38);
+  color: white;
+  border-radius: 35px;
+  border: none;
+  transition-duration: 0.15s;
+
+  
+}
+.fxn{
+  background-color: orange;
+  color: white;
+  font-size: 40px;
+  
+}
+button:hover{
+  background-color: rgb(98, 73, 27)
+}
+button:active{
+  width: 64px;
+  height: 64px;
+  font-size: 16px;
+
+  
+}
+.calculate {
+  display: block;
+  justify-content: center;
+  margin-left: 40%;
+  
+}
+body{
+  height: 360px;
+  background-color: black;
+  color: white;
+}
+.two-line{
+  
+  height: 150px;
+  margin-left: 40%;
+  margin-right:41% ;
+  margin-top:80px ;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  font-size: 35px;
+  height: 150px;
+  font-weight: bolder;
+  
+}
+

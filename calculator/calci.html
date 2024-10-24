@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <link rel="stylesheet" href="calci.css">
+  <body> <div class="two-line">
+    <p class="js-result"  >
+    </p>
+    <p class="js-show "></p> 
+  </div>
+    <div class="calculate">
+     
+      
+    
+   
+    <p>
+      <button onclick="
+      doCalculation('1');  
+     calci();
+     ">1</button>
+      
+      <button onclick="
+      doCalculation('2');
+      calci();
+      ">2</button>
+
+      <button onclick="
+       doCalculation('3');
+       calci();
+      ">3</button>
+
+      <button onclick="
+      doCalculation('+');
+      calci();
+      " class="fxn">+</button>
+    </p>
+
+    <p>
+      <button onclick="
+        doCalculation('4');
+        calci();
+      ">4</button>
+      
+      <button onclick="
+        doCalculation('5');
+        calci();
+      ">5</button>
+
+      <button onclick="
+       doCalculation('6');
+       calci();
+      ">6</button>
+
+      <button onclick="
+        doCalculation('-');
+        calci();
+      " class="fxn">-</button>
+    </p>
+
+    <p>
+      <button onclick="
+       doCalculation('7');
+       calci();
+      ">7</button>
+      
+      <button onclick="
+        doCalculation('8')
+        calci();
+      ">8</button>
+
+      <button onclick="
+       doCalculation('9')
+      ;
+      calci();
+      ">9</button>
+
+      <button onclick="
+       doCalculation('*');
+       calci();
+      " class="fxn">*</button>
+    </p>
+
+    <p>
+      <button onclick="
+       doCalculation('0');
+       calci();
+      ">0</button>
+      
+      <button onclick="
+       doCalculation('.');
+       calci();
+      ">.</button>
+
+      <button onclick="
+      calculation= eval(calculation)
+      show();
+      
+        
+      ">=</button>
+
+      <button onclick="
+        doCalculation('/')
+        calci();
+      " class="fxn">/</button>
+    </p>
+
+    <p>
+      <button class="js-clear" style="width: 290px;"  onclick="
+      calculation ='' ;
+      calci();
+      show();">Clear</button>
+      <!-- <button class="clear js-clear"
+      onclick="
+      clearCalculation();
+      localStorage.removeItem('calculation', calculation);
+      ">Clear</button> -->
+    </p>
+ </div>
+   
+    <script src="calci.js">
+
+    </script>
+  </body>
+</html>
